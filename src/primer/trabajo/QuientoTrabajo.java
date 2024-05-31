@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class QuientoTrabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese la cantidad de hombres en el salon");
-        double h=t.nextDouble();
+        double hombres=textoScanner.nextDouble();
         System.out.println("ingrese la cantidad de mujeres en el salon");
-        double m=t.nextDouble();
+        double mujeres=textoScanner.nextDouble();
         
-        double cant=h+m;
+        double cantidad=hombres+mujeres;
         
-        double porh=(100*h)/cant;
-        double porm=(100*m)/cant;
+        double porcentajeHombres=(100*hombres)/cantidad;
+        double porcentajeMujeres=(100*mujeres)/cantidad;
         
-        System.out.println("la cantidad de hombres es del "+porh+"%");
-        System.out.println("la cantidad de mujeres es del "+porm+"%");
+        System.out.println("la cantidad de hombres es del "+porcentajeHombres+"%");
+        System.out.println("la cantidad de mujeres es del "+porcentajeMujeres+"%");
     }
     
 }
