@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class SeptimoTrabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
-        int j=0,h=0;
+        int contenedor=0,contenedor0=0;
         
         System.out.println("ingrese un valor");
-        int nu=t.nextInt();
+        int numero=textoScanner.nextInt();
         System.out.println("ingrese otro");
-        int num=t.nextInt();
+        int numero1=textoScanner.nextInt();
                        
-        j=nu;
-        h=num;
+        contenedor=numero;
+        contenedor0=numero1;
         
-        nu=0;
-        num=0;
+        numero=0;
+        numero1=0;
         
-        nu=h;
-        num=j;
+        numero=contenedor0;
+        numero1=contenedor;
         
-        System.out.println("los valores son "+nu+" y "+num);
+        System.out.println("los valores son "+numero+" y "+num);
         
     }
     
