@@ -23,7 +23,7 @@ public class SeptimoTrabajo {
         numero=contenedor0;
         numero1=contenedor;
         
-        System.out.println("los valores son "+numero+" y "+num);
+        System.out.println("los valores son "+numero+" y "+numero1);
         
     }
     
