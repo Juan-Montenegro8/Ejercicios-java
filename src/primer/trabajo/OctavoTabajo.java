@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class OctavoTabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("escriba cuantos GB tiene su disco duro");
-        double gb=t.nextDouble();
+        double GigaByte=textoScanner.nextDouble();
         
-        double mb = gb*1024;
-        double kb = mb*1024;
-        double b = kb*1024;
+        double MegaByte = GigaByte*1024;
+        double KiloByte = MegaByte*1024;
+        double Byte = KiloByte*1024;
         
-        System.out.println("en megabytes"+mb);
-        System.out.println("en kilobytes"+kb);
-        System.out.println("en bytes"+b);
+        System.out.println("en megabytes"+MegaByte);
+        System.out.println("en kilobytes"+KiloByte);
+        System.out.println("en bytes"+Byte);
     }
     
 }
