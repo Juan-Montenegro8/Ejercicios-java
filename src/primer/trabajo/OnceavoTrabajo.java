@@ -5,24 +5,24 @@ import java.util.Scanner;
 public class OnceavoTrabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner texto=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int n1=t.nextInt();
+        int numero1=texto.nextInt();
         System.out.println("el otro");
-        int n2=t.nextInt();
+        int numero2=texto.nextInt();
         
-        int r1=n1%10;
-        int r2=n2%10;
+        int respuesta1=numero1%10;
+        int respuesta2=numero2%10;
         
-        int r3=n1-r1;
-        int r4=n2-r2;
+        int respuesta3=numero1-respuesta1;
+        int respuesta4=numero2-respuesta2;
         
-        int r5=r3+r2;
-        int r6=r4+r1;
+        int respuesta5=respuesta3+respuesta2;
+        int respuesta6=respuesta4+respuesta1;
         
-        System.out.println(""+r5);
-        System.out.println(""+r6);
+        System.out.println(""+respuesta5);
+        System.out.println(""+respuesta6);
     }
     
 }
