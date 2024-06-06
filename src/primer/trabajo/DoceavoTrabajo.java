@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class DoceavoTrabajo {
 
     public static void main(String[] args) {
-        Scanner t=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("escriba la cantidad de segundos");
-        int seg=t.nextInt();
+        int segundos=textoScanner.nextInt();
         
-        int horas=seg/3600;
-        int h=seg%3600;
-        int min=h/60;
-        int segun=h%60;
+        int horas=segundos/3600;
+        int hora=segundos%3600;
+        int minutos=hora/60;
+        int segundo=hora%60;
         
-        System.out.println(horas+" hora "+min+" minutos "+segun+" segundos");
+        System.out.println(horas+" hora "+minutos+" minutos "+segundo+" segundos");
     }
     
 }
