@@ -3,12 +3,12 @@ import java.util.*;
 public class PrimerTrabajo {
 
     public static void main(String[] args) {
-        Scanner texto= new Scanner(System.in);
+        Scanner textoScanner= new Scanner(System.in);
         
         System.out.println("ingrese la base del rectangulo");
-        double base=texto.nextDouble();
+        double base=textoScanner.nextDouble();
         System.out.println("ingrese la altura del rectangulo");
-        double altura=texto.nextDouble();
+        double altura=textoScanner.nextDouble();
         
         double area = base*altura;
         double perimetro = 2*(base+altura);
