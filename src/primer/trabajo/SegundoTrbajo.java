@@ -3,10 +3,10 @@ import java.util.*;
 public class SegundoTrbajo {
 
     public static void main(String[] args) {
-        Scanner texto=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("de la medida en metros");
-        double medida=texto.nextDouble();
+        double medida=textoScanner.nextDouble();
         
         double centimetros= medida*100;
         double pulgadas=centimetros/2.54;
