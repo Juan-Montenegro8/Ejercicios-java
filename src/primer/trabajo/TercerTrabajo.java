@@ -27,7 +27,7 @@ public class TercerTrabajo {
             System.out.println("Monto correspondinte al comedor de los niños "+comedor);
             System.out.println("Monto correspondiente a gastos administrativos "+administrativos);    
         } catch (Exception e) {
-            // TODO: handle exception
+            System.out.println("Ocurrio un errro: "+e.getMessage());
         }
     }
     
