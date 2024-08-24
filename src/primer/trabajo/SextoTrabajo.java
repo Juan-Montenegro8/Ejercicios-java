@@ -17,14 +17,11 @@ public class SextoTrabajo {
             System.out.println("en grados centigrados es "+resultado);
         }else if(respuesta==2){
             
-                System.out.println("cantidad de grados centigrados");
-                double centigrados = textoScanner.nextDouble();
-                double resultado=(centigrados*1.8)+32;
-                System.out.println("en grados centigrados es "+resultado);
-            }else{
-                System.out.println("no existe esa opcion");
-            }
-        }
+            System.out.println("cantidad de grados centigrados");
+            double centigrados = textoScanner.nextDouble();
+            double resultado=(centigrados*1.8)+32;
+            System.out.println("en grados centigrados es "+resultado);
+        }else System.out.println("no existe esa opcion");
     }
     
 }
