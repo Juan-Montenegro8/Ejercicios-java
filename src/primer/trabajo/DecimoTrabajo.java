@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class DecimoTrabajo {
 
     public static void main(String[] args) {
-        Scanner texto=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("cuantas horas de trabajo son");
-        int Horas=texto.nextInt();
+        int Horas=textoScanner.nextInt();
         System.out.println("cunatos dias trabajo");
-        int Dias=texto.nextInt();
+        int Dias=textoScanner.nextInt();
         System.out.println("cuants horas extras trabajo");
-        int HExtra=texto.nextInt();
+        int HExtra=textoScanner.nextInt();
         System.out.println("cuantos hijos tiene");
-        int Hijo=texto.nextInt();
+        int Hijo=textoScanner.nextInt();
         
         int extra=HExtra*12000;
         int hijo= Hijo*25000;
