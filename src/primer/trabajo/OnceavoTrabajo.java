@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class OnceavoTrabajo {
 
     public static void main(String[] args) {
-        Scanner texto=new Scanner(System.in);
+        Scanner textoScanner=new Scanner(System.in);
         
         System.out.println("ingrese el numero");
-        int numero1=texto.nextInt();
+        int numero1=textoScanner.nextInt();
         System.out.println("el otro");
-        int numero2=texto.nextInt();
+        int numero2=textoScanner.nextInt();
         
         int respuesta1=numero1%10;
         int respuesta2=numero2%10;
